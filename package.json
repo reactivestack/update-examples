@@ -1,13 +1,33 @@
 {
   "name": "update-examples",
   "description": "Update examples in your documentation files",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "update-examples.js",
   "bin": {
     "update-examples": "./cli.js"
   },
   "author": "Benoit Tremblay <benoit@reactivestack.com>",
   "license": "MIT",
+  "keywords": [
+    "update",
+    "examples",
+    "markdown",
+    "documentation",
+    "doc",
+    "docs"
+  ],
+  "homepage": "https://github.com/reactivestack/update-examples",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reactivestack/update-examples.git"
+  },
+  "bugs": {
+    "url": "https://github.com/reactivestack/update-examples/issues"
+  },
+  "files": [
+    "cli.js",
+    "update-examples.js"
+  ],
   "dependencies": {
     "glob": "^7.1.3"
   }
