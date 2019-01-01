@@ -1,0 +1,14 @@
+{
+  "name": "update-examples",
+  "description": "Update examples in your documentation files",
+  "version": "0.1.0",
+  "main": "update-examples.js",
+  "bin": {
+    "update-examples": "./cli.js"
+  },
+  "author": "Benoit Tremblay <benoit@reactivestack.com>",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^7.1.3"
+  }
+}
